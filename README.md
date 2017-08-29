@@ -2,7 +2,7 @@
 
 Keep one instance of all the duplicate lines in a file.
 
-`awk '!seen[$1]++' file`
+`awk '!seen[$0]++' file`
 
 Parse a csv file.
 
